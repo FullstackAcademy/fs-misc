@@ -1,10 +1,10 @@
 {
   "name": "fs-misc",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Miscellaneous utilities for Fullstack Academy projects",
   "main": "index.js",
-  "engines" : {
-    "node" : ">=4"
+  "engines": {
+    "node": ">=4"
   },
   "bin": {
     "pg-init": "./lib/pg-init/pg-init.sh"
