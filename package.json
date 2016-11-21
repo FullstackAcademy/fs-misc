@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Miscellaneous utilities for Fullstack Academy projects",
   "main": "index.js",
+  "engines" : {
+    "node" : ">=4"
+  },
   "bin": {
-    "pg-init": "./lib/pg-init.sh"
+    "pg-init": "./lib/pg-init/pg-init.sh"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pg-init": "./lib/pg-init.sh"
+    "pg-init": "./lib/pg-init/pg-init.sh"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/FullstackAcademy/fs-misc/issues"
   },
-  "homepage": "https://github.com/FullstackAcademy/fs-misc#readme"
+  "homepage": "https://github.com/FullstackAcademy/fs-misc#readme",
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "eslint-config-fullstack": "^1.8.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
 }
