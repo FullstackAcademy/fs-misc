@@ -1,0 +1,26 @@
+{
+  "name": "fs-misc",
+  "version": "1.0.0",
+  "description": "Miscellaneous utilities for Fullstack Academy projects",
+  "main": "index.js",
+  "bin": {
+    "pg-init": "./lib/pg-init.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pg-init": "./lib/pg-init.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullstackAcademy/fs-misc.git"
+  },
+  "keywords": [
+    "utilities"
+  ],
+  "author": "Gabriel Lebec <glebec@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FullstackAcademy/fs-misc/issues"
+  },
+  "homepage": "https://github.com/FullstackAcademy/fs-misc#readme"
+}
